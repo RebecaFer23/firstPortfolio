@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+body {
+    min-height: 30vh;
+    background-color: #13131a;
+    font-family: 'Poppins', sans-serif;
+    place-items: center;
+}
+
+p {
+    font-size: 1.3125rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 1.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 20rem;
+    background: #fff;
+    padding: 4rem;
+    margin-left: 10%;
+    margin-top: 3%;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 1rem rgba(143, 140, 140, 0.473);
+}
+
+#social {
+    display: flex;
+    width: 100%;
+    padding-bottom: 15px;
+    justify-content: space-around;
+}
+
+#social img {
+    width: 30px;
+}
+
+#social img:hover {
+    transform: scale(1.2);
+}
+
+label {
+    width: 100%;
+    color: #777;
+    align-self: flex-start;
+    transition: 0.15s linear;
+    cursor: pointer;
+}
+
+label:focus-within{
+    color: #8e3dc8ee;
+}
+
+.input_texto input {
+    font-size: 1.1875rem;
+    color: #404040;
+    padding: 0.2rem 0 0.12rem 0;
+    width: 100%;
+    border: none;
+    border-color: #a0a0a0;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    margin-bottom: 1rem;
+    transition: 0.15s linear;
+    
+}
+.entrada {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 3px;
+    border-bottom: 1px solid var(--color-purple-50);
+    cursor: text;
+    font-size: 18px;
+    color: #000;
+}
+
+.input_texto input:focus {
+    outline: none;
+    border-color: #8d3dc8;
+}
+
+
+.botao {
+    line-height: 2rem;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    background: transparent;
+    color: #81259d;
+    border: 1px solid currentColor;
+    border-radius: 4px;
+    margin-top: 2rem;
+    transition: 0.25s;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.botao:hover, .botao:focus {
+    outline: none;
+    background: #8d3dc8;
+    color: #fff;
+}
+
+
+
+.esqueci a {
+    text-decoration: none;
+    color: #000000a9;
+    font-size: 0.875rem;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.esqueci a:hover, .esqueci a:focus {
+    outline: none;
+    color: #6006a0f1;
+}
+
+
+#inicio {
+    height: 50px;
+    width: 80px;
+    background-color: #8d3dc8;
+    border-radius: 20%;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.menu {
+    color: #fff;
+    text-decoration: none;
+    font-family: grid;
+    font-size: 18px;
+}
+
+.menu:hover {
+    color: #13131a;
+}
